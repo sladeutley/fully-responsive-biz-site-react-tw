@@ -22,7 +22,10 @@ const Navbar = () => {
         ))}
       </ul>
 
-      
+      {/* 38:00 - Mobile Devices - not sure the hidden thing seems counterintuitive to me. like above on desktop its hidden, but here on small devices its hidden - shouldn't it be the other way around */}
+      <div className="sm:hidden flex flex-1 justify-end items-center">
+        <img src={} />
+      </div>
 
     </nav>
   )
