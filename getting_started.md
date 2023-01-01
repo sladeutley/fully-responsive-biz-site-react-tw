@@ -4,4 +4,5 @@
 4. in terminal, cd into project
 5. in terminal, 'npm install'
 6. Install Dependencies (only tailwind using postcss - NOTE***WE ARE NOT USING Tailwind CLI which is default - not sure what difference this makes) - go to their documentation for up to date installation, but as of this moment it's, in terminal, type 'npm install -D tailwindcss postcss autoprefixer'. Next, in terminal, type 'npx tailwindcss init -p'
-7. AFTER install dependencies but before you set them up for project - set up github repo and use your notes in github folder to connect it to this project
+7. AFTER install dependencies, set up github repo and use your notes in github folder to connect it to this project
+8. Follow github commits from this point
