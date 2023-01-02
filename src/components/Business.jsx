@@ -17,7 +17,7 @@ const Business = () =>  (
         of credit cards on the market.
       </p>
 
-      <Button styles={`mt-10`} />
+      <Button styles={`mt-10`}  text={`Get Started`} />
       {/* Above, 'styles' is a prop that has style of margin top of 10 */}
     </div>
   </section>
