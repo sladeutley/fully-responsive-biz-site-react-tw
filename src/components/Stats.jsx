@@ -4,6 +4,7 @@ import styles from "../style";
 
 const Stats = () => (
   <section className={`${styles.flexCenter} flex-row flex-wrap sm:mb-20 mb-6`}>
+    {/* ABOVE, that 'mb-20' might be a bit too much */}
     {stats.map((stat) => (
       <div key={stat.id} className={`flex-1 flex justify-start items-center flex-row m-3`} >
         {/* Above, I guess flex-1 shows them 1 by 1 - still confused what it does */}
