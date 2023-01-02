@@ -20,6 +20,13 @@ const Business = () =>  (
       <Button styles={`mt-10`}  text={`Get Started`} />
       {/* Above, 'styles' is a prop that has style of margin top of 10 */}
     </div>
+
+    <div className={`${layout.sectionImg} flex-col`}>
+      {features.map((feature, index) => (
+        <FeatureCard />
+        // Above, bc we might want to reuse feature cards, but since we'll only be using it in this component, we create a FeatureCard component at top of this page
+      ))}
+    </div>
   </section>
 );
 
