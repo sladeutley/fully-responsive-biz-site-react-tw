@@ -19,7 +19,7 @@ const Testimonials = () => (
       </div>
     </div>
 
-    {/* Below, not sure I like flex- wrap, but then if got rid of it, would have to change to be column on small devices. Could also change max width in FeedbackCard component*/}
+    {/* Below, not sure I like flex- wrap, but then if got rid of it, would have to change to be column on small devices. Could also change max width in FeedbackCard component -> ***Adding flex-1 on everything but small devices in the FeedbackCard component seemed to do the trick - not really sure how but he did it on Clients component after using flex-wrap and it worked*/}
     {/* <div className="flex flex-col sm:flex-row sm:justify-start justify-center w-full feedback-container relative z-[1]"> */}
     <div className="flex flex-wrap sm:justify-start justify-center w-full feedback-container relative z-[1]">
       {feedback.map((card) => <FeedbackCard key={card.id} {...card} />)}
