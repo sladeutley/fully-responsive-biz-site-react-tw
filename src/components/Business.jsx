@@ -34,7 +34,7 @@ const Business = () =>  (
       </p>
 
       <Button styles={`mt-10`}  text={`Get Started`} />
-      {/* Above, 'styles' is a prop that has style of margin top of 10 */}
+      {/* Above, 'styles' as well as 'text' is a prop that has style of margin top of 10 */}
     </div>
 
     <div className={`${layout.sectionImg} flex-col`}>
