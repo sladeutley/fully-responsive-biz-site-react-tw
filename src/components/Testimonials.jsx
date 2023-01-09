@@ -20,7 +20,7 @@ const Testimonials = () => (
       </div>
     </div>
 
-    <div className="flex flex-wrap sm:justify-start justify-center w-full feedback-container relative z-[1]">
+    <div className="flex sm:justify-start justify-center w-full feedback-container relative z-[1]">
       {feedback.map((card) => <FeedbackCard key={card.id} {...card} />)}
       {/* Above, like in another component we did, '{...card}' is spreading the properties of a card (which we imported above). I think by doing this we're giving the FeedbackCard component props of the features properties imported from constants. You'll see that next when we code FeedbackCard component, we will give it props of these feature properties, so it can be dynamic */}
     </div>
